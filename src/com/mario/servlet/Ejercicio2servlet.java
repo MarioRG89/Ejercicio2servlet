@@ -35,7 +35,7 @@ public class Ejercicio2servlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		Date fecha = new Date();
 		out.print("<html><body>");
-		out.print("<p> La hora es : " + fecha.toString()  + "</p>" );
+		out.print("<p> La hora es : " + fecha + "</p>" );
 		out.print("</body></html>");
 	
 	}
